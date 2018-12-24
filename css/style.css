@@ -114,7 +114,6 @@ header nav a {
 /*Featured Product*/
 .featured-product {
   background-color: #ffffff;
-  padding: 107px;
   text-align: center;
 }
 
@@ -122,16 +121,18 @@ header nav a {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   font-size: 48px;
+  padding-top: 107px;
 }
 
 .featured-product p {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  padding: 0 310px;
 }
 
-.featured-product img {
-  margin: 25px 0;
+h2 + img {
+  margin: 20px 0;
 }
 
 .red {
@@ -145,8 +146,13 @@ header nav a {
   font-size: 30px;
   text-align: left;
   padding: 255px 0 0 38px;
+  display: inline-block;
 }
 
 .red span {
   text-decoration: underline;
+}
+.featured-product-img {
+  display: inline-block;
+  padding-top: 70px;
 }
