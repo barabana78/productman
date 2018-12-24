@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-@font-face {
-
-}
-
 body {
   font-family: Arial, sans-serif;
   min-height: 100vh;
@@ -26,6 +22,7 @@ body {
 a {
   text-decoration: none;
 }
+
 a:hover {
   color: red;
   transition: all 0.3s;
@@ -43,6 +40,7 @@ header {
   top: 0;
   left: 0;
   padding-top: 44px;
+  background-color: #efefef;
 }
 
 header a.logo {
@@ -51,10 +49,12 @@ header a.logo {
   font-size: 48px;
   color: #303030;
 }
+
 header a.logo:hover {
   color: red;
   transition: all 0.3s;
 }
+
 header nav {
   float: right;
 }
@@ -70,8 +70,10 @@ header nav a {
   padding-top: 27px;
 }
 
-div.blackwhite {
+.blackwhite {
   display: inline-block;
+  width: 615px;
+  text-align: right;
 }
 
 .banner img {
@@ -82,12 +84,6 @@ div.blackwhite {
 .banner {
   margin-top: 200px;
   padding-bottom: 183px;
-}
-
-.blackwhite {
-  width: 615px;
-  position: relative;
-  text-align: right;
 }
 
 .blackwhite h1 {
@@ -109,29 +105,35 @@ div.blackwhite {
   font-size: 24px;
   color: #303030;
 }
+
 .blackwhite a:hover {
   color: red;
   transition: all 0.3s;
 }
+
 /*Featured Product*/
 .featured-product {
   background-color: #ffffff;
   padding: 107px;
   text-align: center;
 }
+
 .featured-product h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   font-size: 48px;
 }
+
 .featured-product p {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
+
 .featured-product img {
   margin: 25px 0;
 }
+
 .red {
   background-color: red;
   width: 329px;
@@ -144,6 +146,16 @@ div.blackwhite {
   text-align: left;
   padding: 255px 0 0 38px;
 }
+
 .red span {
   text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  display: inline-block;
 }
