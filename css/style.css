@@ -150,12 +150,3 @@ header nav a {
 .red span {
   text-decoration: underline;
 }
-
-ul {
-  list-style: none;
-
-}
-
-li {
-  display: inline-block;
-}
