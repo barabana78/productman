@@ -132,7 +132,7 @@ header nav a {
 }
 
 h2 + img {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .red {
@@ -147,12 +147,28 @@ h2 + img {
   text-align: left;
   padding: 255px 0 0 38px;
   display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
-.red span {
-  text-decoration: underline;
-}
 .featured-product-img {
   display: inline-block;
   padding-top: 70px;
+
+}
+
+.featured-product-img img {
+  margin: 15px 15px;
+  border-radius: 5px;
+}
+
+.for-red {
+  display: inline-block;
+  position: relative;
+}
+
+.red .line {
+  width: 97px;
+  margin: 0;
 }
