@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  font-size: 18px;
+  background-color: #efefef;
+  padding-top: 94px;
+  color: #303030;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1198px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  transition: all 0.3s;
+}
+
+.holder::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 44px;
+}
+
+header a.logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #303030;
+}
+header a.logo:hover {
+  color: red;
+  transition: all 0.3s;
+}
+header nav {
+  float: right;
+}
+
+header nav a {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #303030;
+  line-height: 27px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 27px;
+}
+
+div.blackwhite {
+  display: inline-block;
+}
+
+.banner img {
+  float: right;
+  padding-right: 115px;
+}
+
+.banner {
+  margin-top: 200px;
+  padding-bottom: 183px;
+}
+
+.blackwhite {
+  width: 615px;
+  position: relative;
+  text-align: right;
+}
+
+.blackwhite h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 150px;
+}
+
+.blackwhite p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.blackwhite a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #303030;
+}
+.blackwhite a:hover {
+  color: red;
+  transition: all 0.3s;
+}
+/*Featured Product*/
+.featured-product {
+  background-color: #ffffff;
+  padding: 107px;
+  text-align: center;
+}
+.featured-product h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+.featured-product p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.featured-product img {
+  margin: 25px 0;
+}
+.red {
+  background-color: red;
+  width: 329px;
+  height: 387px;
+  border-radius: 5px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: left;
+  padding: 255px 0 0 38px;
+}
+.red span {
+  text-decoration: underline;
+}
